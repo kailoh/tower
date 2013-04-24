@@ -1,0 +1,126 @@
+FINAL PROJECT V README
+
+Number of hours: 1.5
+
+Standalone executable is at /contrib/projects/Tower. Navigate to that folder and type ./kai_tower_defense
+
+I have also emailed the demo video to you (dropbox link).
+
+
+Thanks for a great semester. -Kai
+
+
+FINAL PROJECT IV README
+
+Number of hours: 28 (including Facebook stuff...)
+
+Note: Please grade this as a standard retry for final3 as well (I fixed the bug that you pointed out - Game crashes when player clicks on a tower in the shop, then a tower on the field, then an
+empty space on the field).
+
+Engine requirements
+========================================
+(none)
+
+Game requirements
+========================================
+[ ] - UI exists where player can see score and towers to purchase
+
+Yes, this is the tower panel
+
+[ ] - Game is balanced and towers exist for all stages of the game
+
+Yes, there are different types of towers that players can buy when they get gold as the game progresses
+
+[ ] - No bugs exist in gameplay
+
+Tried my best to test it as thoroughly as possible and weed out all bugs.
+
+FINAL PROJECT III README
+
+Number of hours: 13
+
+Engine requirements
+========================================
+[ ] - Engine has an interface for evaluating a game world
+
+Yes, see Evaluator in engine.
+
+Game requirements
+========================================
+[ ] - Game implements the interface that evaluates the game world
+
+Yes, see BoardEvaluator.
+
+[ ] - Difficulty adapts with the player's progress
+
+Formula in BoardEvaluator calculates if difficulty should be increased based on the player's score & gold over time. If it should be increased, it returns the % increase in HP the units should have for the next round.
+
+[ ] - Towers can be purchased with resources
+
+Yes.
+
+[ ] - Multiple types of towers exist
+
+Yes.
+
+[ ] - Towers can be upgraded
+
+Yes.
+
+
+FINAL PROJECT II README
+
+Number of hours: 12
+
+Engine requirements
+========================================
+(none)
+
+Game requirements
+========================================
+[ ] - Player can place towers
+
+Yes, click on one of the squares on the tower panel and click on a grid square to place it. If its not valid, you can't place it.
+
+[ ] - Enemies exist and attack/menace player
+
+Enemies spawn and make their way to the "heart" of the grid
+
+[ ] - Towers attack the enemies
+
+Basic and advanced tower both can shoot at enemies.
+
+[ ] - Game has a lose condition
+
+When any enemy touches the heart, game is over.
+
+[ ] - Game has a final score that is displayed to the player
+
+The score is displayed at the final screen. It is also posted on facebook.
+
+FINAL PROJECT I README
+
+Number of hours: 10 (including time spent on trying to get the access token)
+
+Note: If the project doesn't compile, you might have to change the build path. 
+
+Engine requirements
+========================================
+[ ] - Engine has a sound object that entities can use to play sounds
+
+Yes, see Sound object under gameengine.
+
+[ ] - Engine has a sound object that can loop sound for BGM
+
+The same sound object has a loop method.
+
+[ ] - Possible to post a high score to Facebook given an app secret and a score
+
+It's currently a demo, see the constructor of Board. I'm still working on how to get the access token without requiring the user to explicity go to the URL and copy and paste facebook's response in another browser.
+
+Game requirements
+========================================
+[ ] - Sound is demonstrated somewhere in the game
+
+When you move a unit, a sound plays.
+Also, the background sound loops.

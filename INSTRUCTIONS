@@ -1,0 +1,17 @@
+FINAL PROJECT INSTRUCTIONS
+
+Please put on your earphones - my friend made some pretty awesome music for this game.
+Ok, so the graphics aren't ideal - I decided not to use any sprites for the towers because I couldn't find anything nice enough that would fit well into the game.
+
+See the instructions in the menu screen.
+
+Scroll using arrow keys/mouse/scroll arrows at side of screen
+Zoom in/out using mouse wheel
+The tower panel is on the right -- click on a box (representing a tower) and place it on one of the grid squares. If its not valid (eg you don't have enough cash/tile is full), you won't be able to place it there. 
+When you move your mouse over a box on the tower panel, the description of the tower will show.
+You can only build a maximum of 5 gold towers - if any gold towers are destroyed, that's too bad, your limit won't reset.
+
+Enemies spawn and make their way towards the barracks in the center. Once they touch it, you lose.
+After round 15 or so, some enemies explode - there will be a bar above them that appears once their timer has 10 seconds or less left on it. If you kill an exploding enemy, you get 3 points instead of 1 for killing regular enemies.
+
+Adaptive difficulty means that the enemies will have more HP the faster you kill them.
